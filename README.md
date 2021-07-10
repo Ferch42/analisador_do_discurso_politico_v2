@@ -1,0 +1,2 @@
+# analisador_do_discurso_politico_v2
+analisador_do_discurso_politico_v2
