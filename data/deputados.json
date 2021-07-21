@@ -1,0 +1,514 @@
+[{"nome": "Alan Rick", "partido": "DEM", "estado": "Acre"}
+, {"nome": "Dra. Vanda Milani", "partido": "SD", "estado": "Acre"}
+, {"nome": "Flaviano Melo", "partido": "MDB", "estado": "Acre"}
+, {"nome": "Jéssica Sales", "partido": "MDB", "estado": "Acre"}
+, {"nome": "Jesus Sérgio", "partido": "PDT", "estado": "Acre"}
+, {"nome": "Mara Rocha", "partido": "PSDB", "estado": "Acre"}
+, {"nome": "Pastor Manuel Marcos", "partido": "PRB", "estado": "Acre"}
+, {"nome": "Perpetua Almeida", "partido": "PC do B", "estado": "Acre"}
+, {"nome": "Arthur Lira", "partido": "PP", "estado": "Alagoas"}
+, {"nome": "Isnaldo Bulhões", "partido": "MDB", "estado": "Alagoas"}
+, {"nome": "JHC", "partido": "PSB", "estado": "Alagoas"}
+, {"nome": "Marx Beltrão", "partido": "PSD", "estado": "Alagoas"}
+, {"nome": "Nivaldo Albuquerque", "partido": "PTB", "estado": "Alagoas"}
+, {"nome": "Paulão", "partido": "PT", "estado": "Alagoas"}
+, {"nome": "Sérgio Toledo", "partido": "PR", "estado": "Alagoas"}
+, {"nome": "Severino Pessôa", "partido": "PRB", "estado": "Alagoas"}
+, {"nome": "Tereza Nelma", "partido": "PSDB", "estado": "Alagoas"}
+, {"nome": "Acácio Favacho", "partido": "PROS", "estado": "Amapá"}
+, {"nome": "Aline Gurgel", "partido": "PRB", "estado": "Amapá"}
+, {"nome": "Andre Abdon", "partido": "PP", "estado": "Amapá"}
+, {"nome": "Camilo Capiberibe", "partido": "PSB", "estado": "Amapá"}
+, {"nome": "Leda Sadala", "partido": "AVANTE", "estado": "Amapá"}
+, {"nome": "Luiz Carlos", "partido": "PSDB", "estado": "Amapá"}
+, {"nome": "Professora Marcivania", "partido": "PC do B", "estado": "Amapá"}
+, {"nome": "Vinícius", "partido": "PR", "estado": "Amapá"}
+, {"nome": "Atila Lins", "partido": "PP", "estado": "Amazonas"}
+, {"nome": "Bosco Saraiva", "partido": "SD", "estado": "Amazonas"}
+, {"nome": "Capitão Alberto Neto", "partido": "PRB", "estado": "Amazonas"}
+, {"nome": "Delegado Pablo", "partido": "PSL", "estado": "Amazonas"}
+, {"nome": "José Ricardo", "partido": "PT", "estado": "Amazonas"}
+, {"nome": "Marcelo Ramos", "partido": "PR", "estado": "Amazonas"}
+, {"nome": "Sidney Leite", "partido": "PSD", "estado": "Amazonas"}
+, {"nome": "Silas Câmara", "partido": "PRB", "estado": "Amazonas"}
+, {"nome": "Adolfo Viana", "partido": "PSDB", "estado": "Bahia"}
+, {"nome": "Afonso Florence", "partido": "PT", "estado": "Bahia"}
+, {"nome": "Alex Santana", "partido": "PDT", "estado": "Bahia"}
+, {"nome": "Alice Portugal", "partido": "PC do B", "estado": "Bahia"}
+, {"nome": "Antonio Brito", "partido": "PSD", "estado": "Bahia"}
+, {"nome": "Arthur Maia", "partido": "DEM", "estado": "Bahia"}
+, {"nome": "Bacelar", "partido": "PODE", "estado": "Bahia"}
+, {"nome": "Cacá Leão", "partido": "PP", "estado": "Bahia"}
+, {"nome": "Charles Fernandes", "partido": "PSD", "estado": "Bahia"}
+, {"nome": "Claudio Cajado", "partido": "PP", "estado": "Bahia"}
+, {"nome": "Daniel Almeida", "partido": "PC do B", "estado": "Bahia"}
+, {"nome": "Elmar", "partido": "DEM", "estado": "Bahia"}
+, {"nome": "Felix Mendonça", "partido": "PDT", "estado": "Bahia"}
+, {"nome": "Igor Kannario", "partido": "PHS", "estado": "Bahia"}
+, {"nome": "João Bacelar", "partido": "PR", "estado": "Bahia"}
+, {"nome": "João Roma", "partido": "PRB", "estado": "Bahia"}
+, {"nome": "Jorge Solla", "partido": "PT", "estado": "Bahia"}
+, {"nome": "José Nunes", "partido": "PSD", "estado": "Bahia"}
+, {"nome": "Jose Rocha", "partido": "PR", "estado": "Bahia"}
+, {"nome": "Josias Gomes", "partido": "PT", "estado": "Bahia"}
+, {"nome": "Leur Lomanto Jr", "partido": "DEM", "estado": "Bahia"}
+, {"nome": "Lídice da Mata", "partido": "PSB", "estado": "Bahia"}
+, {"nome": "Marcelo Nilo", "partido": "PSB", "estado": "Bahia"}
+, {"nome": "Marcio Marinho", "partido": "PRB", "estado": "Bahia"}
+, {"nome": "Mário Negromonte Jr", "partido": "PP", "estado": "Bahia"}
+, {"nome": "Otto Alencar Filho", "partido": "PSD", "estado": "Bahia"}
+, {"nome": "Pastor Abílio Santana", "partido": "PHS", "estado": "Bahia"}
+, {"nome": "Pastor Sargento Isidório", "partido": "AVANTE", "estado": "Bahia"}
+, {"nome": "Paulo Azi", "partido": "DEM", "estado": "Bahia"}
+, {"nome": "Pelegrino", "partido": "PT", "estado": "Bahia"}
+, {"nome": "Prof. Dayane Pimentel", "partido": "PSL", "estado": "Bahia"}
+, {"nome": "Raimundo Costa", "partido": "PRP", "estado": "Bahia"}
+, {"nome": "Ronaldo Carletto", "partido": "PP", "estado": "Bahia"}
+, {"nome": "Sérgio Brito", "partido": "PSD", "estado": "Bahia"}
+, {"nome": "Tito", "partido": "AVANTE", "estado": "Bahia"}
+, {"nome": "Uldúrico Júnior", "partido": "PPL", "estado": "Bahia"}
+, {"nome": "Valmir Assunção", "partido": "PT", "estado": "Bahia"}
+, {"nome": "Waldenor Pereira", "partido": "PT", "estado": "Bahia"}
+, {"nome": "Zé Neto", "partido": "PT", "estado": "Bahia"}
+, {"nome": "Aj Albuquerque", "partido": "PP", "estado": "Ceará"}
+, {"nome": "André Figueiredo", "partido": "PDT", "estado": "Ceará"}
+, {"nome": "Capitão Wagner", "partido": "PROS", "estado": "Ceará"}
+, {"nome": "Celio Studart", "partido": "PV", "estado": "Ceará"}
+, {"nome": "Denis Bezerra", "partido": "PSB", "estado": "Ceará"}
+, {"nome": "Domingos Neto", "partido": "PSD", "estado": "Ceará"}
+, {"nome": "Dr. Jaziel", "partido": "PR", "estado": "Ceará"}
+, {"nome": "Eduardo Bismarck", "partido": "PDT", "estado": "Ceará"}
+, {"nome": "Genecias Noronha", "partido": "SD", "estado": "Ceará"}
+, {"nome": "Guimarães", "partido": "PT", "estado": "Ceará"}
+, {"nome": "Heitor Freire", "partido": "PSL", "estado": "Ceará"}
+, {"nome": "Idilvan", "partido": "PDT", "estado": "Ceará"}
+, {"nome": "Jose Airton", "partido": "PT", "estado": "Ceará"}
+, {"nome": "Júnior Mano", "partido": "PATRI", "estado": "Ceará"}
+, {"nome": "Leonidas Cristino", "partido": "PDT", "estado": "Ceará"}
+, {"nome": "Luizianne", "partido": "PT", "estado": "Ceará"}
+, {"nome": "Mauro Filho", "partido": "PDT", "estado": "Ceará"}
+, {"nome": "Moses Rodrigues", "partido": "MDB", "estado": "Ceará"}
+, {"nome": "Pedro Bezerra", "partido": "PTB", "estado": "Ceará"}
+, {"nome": "Robério Monteiro", "partido": "PDT", "estado": "Ceará"}
+, {"nome": "Roberto Pessoa", "partido": "PSDB", "estado": "Ceará"}
+, {"nome": "Vaidon Oliveira", "partido": "PROS", "estado": "Ceará"}
+, {"nome": "Bia Kicis", "partido": "PRP", "estado": "Distrito federal"}
+, {"nome": "Celina Leão", "partido": "PP", "estado": "Distrito federal"}
+, {"nome": "Erika Kokay", "partido": "PT", "estado": "Distrito federal"}
+, {"nome": "Flavia Arruda", "partido": "PR", "estado": "Distrito federal"}
+, {"nome": "Julio Cesar", "partido": "PRB", "estado": "Distrito federal"}
+, {"nome": "Luis Miranda", "partido": "DEM", "estado": "Distrito federal"}
+, {"nome": "Paula Belmonte", "partido": "PPS", "estado": "Distrito federal"}
+, {"nome": "Professor Israel", "partido": "PV", "estado": "Distrito federal"}
+, {"nome": "Amaro Neto", "partido": "PRB", "estado": "Espírito santo"}
+, {"nome": "Da Vitória", "partido": "PPS", "estado": "Espírito santo"}
+, {"nome": "Dra. Soraya Manato", "partido": "PSL", "estado": "Espírito santo"}
+, {"nome": "Evair de Melo", "partido": "PP", "estado": "Espírito santo"}
+, {"nome": "Felipe Rigoni", "partido": "PSB", "estado": "Espírito santo"}
+, {"nome": "Foletto", "partido": "PSB", "estado": "Espírito santo"}
+, {"nome": "Helder Salomão", "partido": "PT", "estado": "Espírito santo"}
+, {"nome": "Lauriete", "partido": "PR", "estado": "Espírito santo"}
+, {"nome": "Norma Ayub", "partido": "DEM", "estado": "Espírito santo"}
+, {"nome": "Sergio Vidigal", "partido": "PDT", "estado": "Espírito santo"}
+, {"nome": "Adriano do Baldy", "partido": "PP", "estado": "Goiás"}
+, {"nome": "Alcides Rodrigues", "partido": "PRP", "estado": "Goiás"}
+, {"nome": "Célio Silveira", "partido": "PSDB", "estado": "Goiás"}
+, {"nome": "Delegado Waldir", "partido": "PSL", "estado": "Goiás"}
+, {"nome": "Dr. Zacarias Calil", "partido": "DEM", "estado": "Goiás"}
+, {"nome": "Elias Vaz", "partido": "PSB", "estado": "Goiás"}
+, {"nome": "Flavia Morais", "partido": "PDT", "estado": "Goiás"}
+, {"nome": "Francisco Jr", "partido": "PSD", "estado": "Goiás"}
+, {"nome": "Glaustin da Fokus", "partido": "PSC", "estado": "Goiás"}
+, {"nome": "João Campos", "partido": "PRB", "estado": "Goiás"}
+, {"nome": "José Nelto", "partido": "PODE", "estado": "Goiás"}
+, {"nome": "Lucas Vergílio", "partido": "SD", "estado": "Goiás"}
+, {"nome": "Magda Mofatto", "partido": "PR", "estado": "Goiás"}
+, {"nome": "Major Vitor Hugo", "partido": "PSL", "estado": "Goiás"}
+, {"nome": "Professor Alcides", "partido": "PP", "estado": "Goiás"}
+, {"nome": "Rubens Otoni", "partido": "PT", "estado": "Goiás"}
+, {"nome": "Zé Mario", "partido": "DEM", "estado": "Goiás"}
+, {"nome": "Aluisio Mendes", "partido": "PODE", "estado": "Maranhão"}
+, {"nome": "Andre Fufuca", "partido": "PP", "estado": "Maranhão"}
+, {"nome": "Bira do Pindaré", "partido": "PSB", "estado": "Maranhão"}
+, {"nome": "Cleber Verde", "partido": "PRB", "estado": "Maranhão"}
+, {"nome": "Edilazio", "partido": "PSD", "estado": "Maranhão"}
+, {"nome": "Eduardo Braide", "partido": "PMN", "estado": "Maranhão"}
+, {"nome": "Gil Cutrim", "partido": "PDT", "estado": "Maranhão"}
+, {"nome": "Hildo Rocha", "partido": "MDB", "estado": "Maranhão"}
+, {"nome": "João Marcelo", "partido": "MDB", "estado": "Maranhão"}
+, {"nome": "Josimar Maranhãozinho", "partido": "PR", "estado": "Maranhão"}
+, {"nome": "Junior Lourenço", "partido": "PR", "estado": "Maranhão"}
+, {"nome": "Junior Marreca Filho", "partido": "PATRI", "estado": "Maranhão"}
+, {"nome": "Juscelino Filho", "partido": "DEM", "estado": "Maranhão"}
+, {"nome": "Márcio Jerry", "partido": "PC do B", "estado": "Maranhão"}
+, {"nome": "Pastor Gildenemyr", "partido": "PMN", "estado": "Maranhão"}
+, {"nome": "Pedro Lucas Fernandes", "partido": "PTB", "estado": "Maranhão"}
+, {"nome": "Rubens Junior", "partido": "PC do B", "estado": "Maranhão"}
+, {"nome": "Zé Carlos", "partido": "PT", "estado": "Maranhão"}
+, {"nome": "Carlos Bezerra", "partido": "MDB", "estado": "Mato Grosso"}
+, {"nome": "Dr Leonardo", "partido": "SD", "estado": "Mato Grosso"}
+, {"nome": "Emanuelzinho", "partido": "PTB", "estado": "Mato Grosso"}
+, {"nome": "Jose Medeiros", "partido": "PODE", "estado": "Mato Grosso"}
+, {"nome": "Juarez Costa", "partido": "MDB", "estado": "Mato Grosso"}
+, {"nome": "Nelson Barbudo", "partido": "PSL", "estado": "Mato Grosso"}
+, {"nome": "Neri Geller", "partido": "PP", "estado": "Mato Grosso"}
+, {"nome": "Professora Rosa Neide", "partido": "PT", "estado": "Mato Grosso"}
+, {"nome": "Beto Pereira", "partido": "PSDB", "estado": "Mato Grosso do Sul"}
+, {"nome": "Dagoberto", "partido": "PDT", "estado": "Mato Grosso do Sul"}
+, {"nome": "Dr. Luiz Ovando", "partido": "PSL", "estado": "Mato Grosso do Sul"}
+, {"nome": "Fabio Trad", "partido": "PSD", "estado": "Mato Grosso do Sul"}
+, {"nome": "Rose Modesto", "partido": "PSDB", "estado": "Mato Grosso do Sul"}
+, {"nome": "Tereza Cristina", "partido": "DEM", "estado": "Mato Grosso do Sul"}
+, {"nome": "Tio Trutis", "partido": "PSL", "estado": "Mato Grosso do Sul"}
+, {"nome": "Vander Loubet", "partido": "PT", "estado": "Mato Grosso do Sul"}
+, {"nome": "Aécio Neves", "partido": "PSDB", "estado": "Minas Gerais"}
+, {"nome": "Alê Silva", "partido": "PSL", "estado": "Minas Gerais"}
+, {"nome": "Andre Janones", "partido": "AVANTE", "estado": "Minas Gerais"}
+, {"nome": "Aurea Carolina", "partido": "PSOL", "estado": "Minas Gerais"}
+, {"nome": "Bilac Pinto", "partido": "DEM", "estado": "Minas Gerais"}
+, {"nome": "Cabo Junio Amaral", "partido": "PSL", "estado": "Minas Gerais"}
+, {"nome": "Charlles Evangelista", "partido": "PSL", "estado": "Minas Gerais"}
+, {"nome": "Delegado Marcelo Freitas", "partido": "PSL", "estado": "Minas Gerais"}
+, {"nome": "Diego Andrade", "partido": "PSD", "estado": "Minas Gerais"}
+, {"nome": "Dimas Fabiano", "partido": "PP", "estado": "Minas Gerais"}
+, {"nome": "Domingos Sávio", "partido": "PSDB", "estado": "Minas Gerais"}
+, {"nome": "Doutor Frederico", "partido": "PATRI", "estado": "Minas Gerais"}
+, {"nome": "Dr. Mário Heringer", "partido": "PDT", "estado": "Minas Gerais"}
+, {"nome": "Eduardo Barbosa", "partido": "PSDB", "estado": "Minas Gerais"}
+, {"nome": "Emidinho Madeira", "partido": "PSB", "estado": "Minas Gerais"}
+, {"nome": "Eros Biondini", "partido": "PROS", "estado": "Minas Gerais"}
+, {"nome": "Euclydes Pettersen", "partido": "PSC", "estado": "Minas Gerais"}
+, {"nome": "Fabio Ramalho", "partido": "MDB", "estado": "Minas Gerais"}
+, {"nome": "Franco Cartafina", "partido": "PHS", "estado": "Minas Gerais"}
+, {"nome": "Fred Costa", "partido": "PATRI", "estado": "Minas Gerais"}
+, {"nome": "Gilberto Abramo", "partido": "PRB", "estado": "Minas Gerais"}
+, {"nome": "Greyce Elias", "partido": "AVANTE", "estado": "Minas Gerais"}
+, {"nome": "Hercílio Coelho Diniz", "partido": "MDB", "estado": "Minas Gerais"}
+, {"nome": "Igor Timo", "partido": "PODE", "estado": "Minas Gerais"}
+, {"nome": "Julio Delgado", "partido": "PSB", "estado": "Minas Gerais"}
+, {"nome": "Lafayette Andrada", "partido": "PRB", "estado": "Minas Gerais"}
+, {"nome": "Léo Motta", "partido": "PSL", "estado": "Minas Gerais"}
+, {"nome": "Leonardo Monteiro", "partido": "PT", "estado": "Minas Gerais"}
+, {"nome": "Lincoln Portela", "partido": "PR", "estado": "Minas Gerais"}
+, {"nome": "Lucas Gonzalez", "partido": "NOVO", "estado": "Minas Gerais"}
+, {"nome": "Luis Tibe", "partido": "AVANTE", "estado": "Minas Gerais"}
+, {"nome": "Marcelo Álvaro Antônio", "partido": "PSL", "estado": "Minas Gerais"}
+, {"nome": "Marcelo Aro", "partido": "PHS", "estado": "Minas Gerais"}
+, {"nome": "Margarida Salomão", "partido": "PT", "estado": "Minas Gerais"}
+, {"nome": "Mauro Lopes", "partido": "MDB", "estado": "Minas Gerais"}
+, {"nome": "Misael Varella", "partido": "PSD", "estado": "Minas Gerais"}
+, {"nome": "Newton Cardoso Jr", "partido": "MDB", "estado": "Minas Gerais"}
+, {"nome": "Odair Cunha", "partido": "PT", "estado": "Minas Gerais"}
+, {"nome": "Padre João", "partido": "PT", "estado": "Minas Gerais"}
+, {"nome": "Patrus Ananias", "partido": "PT", "estado": "Minas Gerais"}
+, {"nome": "Paulo Abi Ackel", "partido": "PSDB", "estado": "Minas Gerais"}
+, {"nome": "Paulo Guedes", "partido": "PT", "estado": "Minas Gerais"}
+, {"nome": "Pinheirinho", "partido": "PP", "estado": "Minas Gerais"}
+, {"nome": "Reginaldo Lopes", "partido": "PT", "estado": "Minas Gerais"}
+, {"nome": "Rodrigo de Castro", "partido": "PSDB", "estado": "Minas Gerais"}
+, {"nome": "Rogério Correia", "partido": "PT", "estado": "Minas Gerais"}
+, {"nome": "Stefano Aguiar", "partido": "PSD", "estado": "Minas Gerais"}
+, {"nome": "Subtenente Gonzaga", "partido": "PDT", "estado": "Minas Gerais"}
+, {"nome": "Tiago Mitraud", "partido": "NOVO", "estado": "Minas Gerais"}
+, {"nome": "Vilson da Fetaemg", "partido": "PSB", "estado": "Minas Gerais"}
+, {"nome": "Weliton Prado", "partido": "PROS", "estado": "Minas Gerais"}
+, {"nome": "Zé Silva", "partido": "SD", "estado": "Minas Gerais"}
+, {"nome": "Zé Vitor", "partido": "PMN", "estado": "Minas Gerais"}
+, {"nome": "Airton Faleiro", "partido": "PT", "estado": "Pará"}
+, {"nome": "Beto Faro", "partido": "PT", "estado": "Pará"}
+, {"nome": "Cássio Andrade", "partido": "PSB", "estado": "Pará"}
+, {"nome": "Celso Sabino", "partido": "PSDB", "estado": "Pará"}
+, {"nome": "Cristiano Vale", "partido": "PR", "estado": "Pará"}
+, {"nome": "Delegado Éder Mauro", "partido": "PSD", "estado": "Pará"}
+, {"nome": "Edmilson Rodrigues", "partido": "PSOL", "estado": "Pará"}
+, {"nome": "Eduardo Costa", "partido": "PTB", "estado": "Pará"}
+, {"nome": "Elcione", "partido": "MDB", "estado": "Pará"}
+, {"nome": "Hélio Leite", "partido": "DEM", "estado": "Pará"}
+, {"nome": "Joaquim Passarinho", "partido": "PSD", "estado": "Pará"}
+, {"nome": "Júnior Ferrari", "partido": "PSD", "estado": "Pará"}
+, {"nome": "Nilson Pinto", "partido": "PSDB", "estado": "Pará"}
+, {"nome": "Olival Marques", "partido": "DEM", "estado": "Pará"}
+, {"nome": "Paulo Bengtson", "partido": "PTB", "estado": "Pará"}
+, {"nome": "Priante", "partido": "MDB", "estado": "Pará"}
+, {"nome": "Vavá Martins", "partido": "PRB", "estado": "Pará"}
+, {"nome": "Aguinaldo Ribeiro", "partido": "PP", "estado": "Paraíba"}
+, {"nome": "Dr Damião", "partido": "PDT", "estado": "Paraíba"}
+, {"nome": "Edna Henrique", "partido": "PSDB", "estado": "Paraíba"}
+, {"nome": "Efraim Filho", "partido": "DEM", "estado": "Paraíba"}
+, {"nome": "Frei Anastácio", "partido": "PT", "estado": "Paraíba"}
+, {"nome": "Gervásio Maia", "partido": "PSB", "estado": "Paraíba"}
+, {"nome": "Hugo", "partido": "PRB", "estado": "Paraíba"}
+, {"nome": "Julian Lemos", "partido": "PSL", "estado": "Paraíba"}
+, {"nome": "Pedro Cunha Lima", "partido": "PSDB", "estado": "Paraíba"}
+, {"nome": "Ruy Carneiro", "partido": "PSDB", "estado": "Paraíba"}
+, {"nome": "Wellington Roberto", "partido": "PR", "estado": "Paraíba"}
+, {"nome": "Wilson Santiago", "partido": "PTB", "estado": "Paraíba"}
+, {"nome": "Aliel Machado", "partido": "PSB", "estado": "Paraná"}
+, {"nome": "Aline Sleutjes", "partido": "PSL", "estado": "Paraná"}
+, {"nome": "Aroldo Martins", "partido": "PRB", "estado": "Paraná"}
+, {"nome": "Boca Aberta", "partido": "PROS", "estado": "Paraná"}
+, {"nome": "Christiane Yared", "partido": "PR", "estado": "Paraná"}
+, {"nome": "Diego Garcia", "partido": "PODE", "estado": "Paraná"}
+, {"nome": "Enio Verri", "partido": "PT", "estado": "Paraná"}
+, {"nome": "Felipe Francischini", "partido": "PSL", "estado": "Paraná"}
+, {"nome": "Filipe Barros", "partido": "PSL", "estado": "Paraná"}
+, {"nome": "Giacobo", "partido": "PR", "estado": "Paraná"}
+, {"nome": "Gleisi Lula", "partido": "PT", "estado": "Paraná"}
+, {"nome": "Gustavo Fruet", "partido": "PDT", "estado": "Paraná"}
+, {"nome": "Hermes Frangão Parcianello", "partido": "MDB", "estado": "Paraná"}
+, {"nome": "Leandre", "partido": "PV", "estado": "Paraná"}
+, {"nome": "Luciano Ducci", "partido": "PSB", "estado": "Paraná"}
+, {"nome": "Luisa Canziani", "partido": "PTB", "estado": "Paraná"}
+, {"nome": "Luiz Nishimori", "partido": "PR", "estado": "Paraná"}
+, {"nome": "Luizão Goulart", "partido": "PRB", "estado": "Paraná"}
+, {"nome": "Ney Leprevost", "partido": "PSD", "estado": "Paraná"}
+, {"nome": "Paulo Martins", "partido": "PSC", "estado": "Paraná"}
+, {"nome": "Pedro Lupion", "partido": "DEM", "estado": "Paraná"}
+, {"nome": "Ricardo Barros", "partido": "PP", "estado": "Paraná"}
+, {"nome": "Rubens Bueno", "partido": "PPS", "estado": "Paraná"}
+, {"nome": "Sandro Alex", "partido": "PSD", "estado": "Paraná"}
+, {"nome": "Sargento Fahur", "partido": "PSD", "estado": "Paraná"}
+, {"nome": "Schiavinato", "partido": "PP", "estado": "Paraná"}
+, {"nome": "Sérgio Souza", "partido": "MDB", "estado": "Paraná"}
+, {"nome": "Toninho Wandscheer", "partido": "PROS", "estado": "Paraná"}
+, {"nome": "Vermelho", "partido": "PSD", "estado": "Paraná"}
+, {"nome": "Zeca Dirceu", "partido": "PT", "estado": "Paraná"}
+, {"nome": "André de Paula", "partido": "PSD", "estado": "Pernambuco"}
+, {"nome": "Andre Ferreira", "partido": "PSC", "estado": "Pernambuco"}
+, {"nome": "Augusto Coutinho", "partido": "SD", "estado": "Pernambuco"}
+, {"nome": "Bispo Ossesio", "partido": "PRB", "estado": "Pernambuco"}
+, {"nome": "Carlos Veras", "partido": "PT", "estado": "Pernambuco"}
+, {"nome": "Daniel Coelho", "partido": "PPS", "estado": "Pernambuco"}
+, {"nome": "Danilo Cabral", "partido": "PSB", "estado": "Pernambuco"}
+, {"nome": "Eduardo da Fonte", "partido": "PP", "estado": "Pernambuco"}
+, {"nome": "Felipe Carreras", "partido": "PSB", "estado": "Pernambuco"}
+, {"nome": "Fernando Filho", "partido": "DEM", "estado": "Pernambuco"}
+, {"nome": "Fernando Monteiro", "partido": "PP", "estado": "Pernambuco"}
+, {"nome": "Fernando Rodolfo", "partido": "PHS", "estado": "Pernambuco"}
+, {"nome": "Gonzaga Patriota", "partido": "PSB", "estado": "Pernambuco"}
+, {"nome": "João Campos", "partido": "PSB", "estado": "Pernambuco"}
+, {"nome": "Luciano Bivar", "partido": "PSL", "estado": "Pernambuco"}
+, {"nome": "Marília Arraes", "partido": "PT", "estado": "Pernambuco"}
+, {"nome": "Pastor Eurico", "partido": "PATRI", "estado": "Pernambuco"}
+, {"nome": "Raul Henry", "partido": "MDB", "estado": "Pernambuco"}
+, {"nome": "Renildo Calheiros", "partido": "PC do B", "estado": "Pernambuco"}
+, {"nome": "Ricardo Teobaldo", "partido": "PODE", "estado": "Pernambuco"}
+, {"nome": "Sebastião Oliveira", "partido": "PR", "estado": "Pernambuco"}
+, {"nome": "Silvio Costa Filho", "partido": "PRB", "estado": "Pernambuco"}
+, {"nome": "Tadeu Alencar", "partido": "PSB", "estado": "Pernambuco"}
+, {"nome": "Túlio Gadêlha", "partido": "PDT", "estado": "Pernambuco"}
+, {"nome": "Wolney Queiroz", "partido": "PDT", "estado": "Pernambuco"}
+, {"nome": "Assis Carvalho", "partido": "PT", "estado": "Piauí"}
+, {"nome": "Átila Lira", "partido": "PSB", "estado": "Piauí"}
+, {"nome": "Capitão Fábio Abreu", "partido": "PR", "estado": "Piauí"}
+, {"nome": "Dra. Marina", "partido": "PTC", "estado": "Piauí"}
+, {"nome": "Flavio Nogueira", "partido": "PDT", "estado": "Piauí"}
+, {"nome": "Iracema Portella", "partido": "PP", "estado": "Piauí"}
+, {"nome": "Júlio Cesar", "partido": "PSD", "estado": "Piauí"}
+, {"nome": "Marcos Aurélio Sampaio", "partido": "MDB", "estado": "Piauí"}
+, {"nome": "Margarete Coelho", "partido": "PP", "estado": "Piauí"}
+, {"nome": "Rejane Dias", "partido": "PT", "estado": "Piauí"}
+, {"nome": "Alessandro Molon", "partido": "PSB", "estado": "Rio de Janeiro"}
+, {"nome": "Alexandre Serfiotis", "partido": "PSD", "estado": "Rio de Janeiro"}
+, {"nome": "Altineu Cortes", "partido": "PR", "estado": "Rio de Janeiro"}
+, {"nome": "Aureo", "partido": "SD", "estado": "Rio de Janeiro"}
+, {"nome": "Benedita da Silva", "partido": "PT", "estado": "Rio de Janeiro"}
+, {"nome": "Carlos Jordy", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Chico d Angelo", "partido": "PDT", "estado": "Rio de Janeiro"}
+, {"nome": "Chiquinho Brazão", "partido": "AVANTE", "estado": "Rio de Janeiro"}
+, {"nome": "Chris Tonietto", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Christino Aureo", "partido": "PP", "estado": "Rio de Janeiro"}
+, {"nome": "Clarisse Garotinho", "partido": "PROS", "estado": "Rio de Janeiro"}
+, {"nome": "Daniel Silveira", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Daniela do Waguinho", "partido": "MDB", "estado": "Rio de Janeiro"}
+, {"nome": "Delegado Antônio Furtado", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Dr. Luizinho", "partido": "PP", "estado": "Rio de Janeiro"}
+, {"nome": "Felício Laterça", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Flordelis", "partido": "PSD", "estado": "Rio de Janeiro"}
+, {"nome": "Gelson Azevedo", "partido": "PHS", "estado": "Rio de Janeiro"}
+, {"nome": "Glauber Braga", "partido": "PSOL", "estado": "Rio de Janeiro"}
+, {"nome": "Gutemberg Reis", "partido": "MDB", "estado": "Rio de Janeiro"}
+, {"nome": "Helio Fernando Barbosa Lopes", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Hugo Leal", "partido": "PSD", "estado": "Rio de Janeiro"}
+, {"nome": "Jandira Feghali", "partido": "PC do B", "estado": "Rio de Janeiro"}
+, {"nome": "David Miranda", "partido": "PSOL", "estado": "Rio de Janeiro"}
+, {"nome": "Juninho do Pneu", "partido": "DEM", "estado": "Rio de Janeiro"}
+, {"nome": "Lourival Gomes", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Luiz Antônio", "partido": "DC", "estado": "Rio de Janeiro"}
+, {"nome": "Luiz Lima", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Major Fabiana", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Marcelo Calero", "partido": "PPS", "estado": "Rio de Janeiro"}
+, {"nome": "Marcelo Freixo", "partido": "PSOL", "estado": "Rio de Janeiro"}
+, {"nome": "Márcio Labre", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Otoni de Paula", "partido": "PSC", "estado": "Rio de Janeiro"}
+, {"nome": "Paulo Ganime", "partido": "NOVO", "estado": "Rio de Janeiro"}
+, {"nome": "Paulo Ramos", "partido": "PDT", "estado": "Rio de Janeiro"}
+, {"nome": "Pedro Paulo", "partido": "DEM", "estado": "Rio de Janeiro"}
+, {"nome": "Professor Joziel", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Rodrigo Maia", "partido": "DEM", "estado": "Rio de Janeiro"}
+, {"nome": "Rosangela Gomes", "partido": "PRB", "estado": "Rio de Janeiro"}
+, {"nome": "Sargento Gurgel", "partido": "PSL", "estado": "Rio de Janeiro"}
+, {"nome": "Soraya Santos", "partido": "PR", "estado": "Rio de Janeiro"}
+, {"nome": "Sóstenes", "partido": "DEM", "estado": "Rio de Janeiro"}
+, {"nome": "Talíria Petrone", "partido": "PSOL", "estado": "Rio de Janeiro"}
+, {"nome": "Vinícius Farah", "partido": "MDB", "estado": "Rio de Janeiro"}
+, {"nome": "Jorge Braz", "partido": "PRB", "estado": "Rio de Janeiro"}
+, {"nome": "Wladimir Garotinho", "partido": "PRP", "estado": "Rio de Janeiro"}
+, {"nome": "Benes Leocadio", "partido": "PTC", "estado": "Rio Grande do Norte"}
+, {"nome": "Fábio Faria", "partido": "PSD", "estado": "Rio Grande do Norte"}
+, {"nome": "General Girao", "partido": "PSL", "estado": "Rio Grande do Norte"}
+, {"nome": "João Maia", "partido": "PR", "estado": "Rio Grande do Norte"}
+, {"nome": "Beto Rosado", "partido": "PP", "estado": "Rio Grande do Norte"}
+, {"nome": "Natalia Bonavides", "partido": "PT", "estado": "Rio Grande do Norte"}
+, {"nome": "Rafael Motta", "partido": "PSB", "estado": "Rio Grande do Norte"}
+, {"nome": "Walter Alves", "partido": "MDB", "estado": "Rio Grande do Norte"}
+, {"nome": "Afonso Hamm", "partido": "PP", "estado": "Rio Grande do Sul"}
+, {"nome": "Afonso Motta", "partido": "PDT", "estado": "Rio Grande do Sul"}
+, {"nome": "Alceu Moreira", "partido": "MDB", "estado": "Rio Grande do Sul"}
+, {"nome": "Bibo Nunes", "partido": "PSL", "estado": "Rio Grande do Sul"}
+, {"nome": "Bohn Gass", "partido": "PT", "estado": "Rio Grande do Sul"}
+, {"nome": "Carlos Gomes", "partido": "PRB", "estado": "Rio Grande do Sul"}
+, {"nome": "Covatti Filho", "partido": "PP", "estado": "Rio Grande do Sul"}
+, {"nome": "Daniel da TV", "partido": "PSDB", "estado": "Rio Grande do Sul"}
+, {"nome": "Danrlei de Deus Goleiro", "partido": "PSD", "estado": "Rio Grande do Sul"}
+, {"nome": "Fernanda Melchionna", "partido": "PSOL", "estado": "Rio Grande do Sul"}
+, {"nome": "Giovani Cherini", "partido": "PR", "estado": "Rio Grande do Sul"}
+, {"nome": "Giovani Feltes", "partido": "MDB", "estado": "Rio Grande do Sul"}
+, {"nome": "Heitor Schuch", "partido": "PSB", "estado": "Rio Grande do Sul"}
+, {"nome": "Henrique Fontana", "partido": "PT", "estado": "Rio Grande do Sul"}
+, {"nome": "Jerônimo Goergen", "partido": "PP", "estado": "Rio Grande do Sul"}
+, {"nome": "Liziane Bayer", "partido": "PSB", "estado": "Rio Grande do Sul"}
+, {"nome": "Lucas Redecker", "partido": "PSDB", "estado": "Rio Grande do Sul"}
+, {"nome": "Marcel Van Hattem", "partido": "NOVO", "estado": "Rio Grande do Sul"}
+, {"nome": "Marcelo Moraes", "partido": "PTB", "estado": "Rio Grande do Sul"}
+, {"nome": "Márcio Biolchi", "partido": "MDB", "estado": "Rio Grande do Sul"}
+, {"nome": "Marcon", "partido": "PT", "estado": "Rio Grande do Sul"}
+, {"nome": "Maria do Rosário", "partido": "PT", "estado": "Rio Grande do Sul"}
+, {"nome": "Marlon Santos", "partido": "PDT", "estado": "Rio Grande do Sul"}
+, {"nome": "Maurício Dziedricki", "partido": "PTB", "estado": "Rio Grande do Sul"}
+, {"nome": "Nereu Crispin", "partido": "PSL", "estado": "Rio Grande do Sul"}
+, {"nome": "Onyx Lorenzoni", "partido": "DEM", "estado": "Rio Grande do Sul"}
+, {"nome": "Osmar Terra", "partido": "MDB", "estado": "Rio Grande do Sul"}
+, {"nome": "Paulo Pimenta", "partido": "PT", "estado": "Rio Grande do Sul"}
+, {"nome": "Pedro Westphalen", "partido": "PP", "estado": "Rio Grande do Sul"}
+, {"nome": "Pompeo de Mattos", "partido": "PDT", "estado": "Rio Grande do Sul"}
+, {"nome": "Sanderson Federal", "partido": "PSL", "estado": "Rio Grande do Sul"}
+, {"nome": "Coronel Chrisóstomo", "partido": "PSL", "estado": "Rondônia"}
+, {"nome": "Dr. Mauro Nazif", "partido": "PSB", "estado": "Rondônia"}
+, {"nome": "Expedito Netto", "partido": "PSD", "estado": "Rondônia"}
+, {"nome": "Jaqueline Cassol", "partido": "PP", "estado": "Rondônia"}
+, {"nome": "Léo Moraes", "partido": "PODE", "estado": "Rondônia"}
+, {"nome": "Lucio Mosquini", "partido": "MDB", "estado": "Rondônia"}
+, {"nome": "Mariana Carvalho", "partido": "PSDB", "estado": "Rondônia"}
+, {"nome": "Silvia Cristina", "partido": "PDT", "estado": "Rondônia"}
+, {"nome": "Dr. Hiran Gonçalves", "partido": "PP", "estado": "Roraima"}
+, {"nome": "Edio Lopes", "partido": "PR", "estado": "Roraima"}
+, {"nome": "Haroldo Cathedral", "partido": "PSD", "estado": "Roraima"}
+, {"nome": "Jhonatan de Jesus", "partido": "PRB", "estado": "Roraima"}
+, {"nome": "Joenia Wapichana", "partido": "REDE", "estado": "Roraima"}
+, {"nome": "Nicoletti", "partido": "PSL", "estado": "Roraima"}
+, {"nome": "Otaci", "partido": "SD", "estado": "Roraima"}
+, {"nome": "Shéridan", "partido": "PSDB", "estado": "Roraima"}
+, {"nome": "Angela Amin", "partido": "PP", "estado": "Santa Catarina"}
+, {"nome": "Carlos Chiodini", "partido": "MDB", "estado": "Santa Catarina"}
+, {"nome": "Carmen Zanotto", "partido": "PPS", "estado": "Santa Catarina"}
+, {"nome": "Caroline de Toni", "partido": "PSL", "estado": "Santa Catarina"}
+, {"nome": "Celso Maldaner", "partido": "MDB", "estado": "Santa Catarina"}
+, {"nome": "Coronel Armando", "partido": "PSL", "estado": "Santa Catarina"}
+, {"nome": "Daniel Freitas", "partido": "PSL", "estado": "Santa Catarina"}
+, {"nome": "Darci de Matos", "partido": "PSD", "estado": "Santa Catarina"}
+, {"nome": "Fabio Schiochet", "partido": "PSL", "estado": "Santa Catarina"}
+, {"nome": "Geovania de Sá", "partido": "PSDB", "estado": "Santa Catarina"}
+, {"nome": "Gilson Marques", "partido": "NOVO", "estado": "Santa Catarina"}
+, {"nome": "Hélio Costa", "partido": "PRB", "estado": "Santa Catarina"}
+, {"nome": "Peninha", "partido": "MDB", "estado": "Santa Catarina"}
+, {"nome": "Professor Pedro Uczai", "partido": "PT", "estado": "Santa Catarina"}
+, {"nome": "Ricardo Guidi", "partido": "PSD", "estado": "Santa Catarina"}
+, {"nome": "Rodrigo Coelho", "partido": "PSB", "estado": "Santa Catarina"}
+, {"nome": "Abou Anni", "partido": "PSL", "estado": "São Paulo"}
+, {"nome": "Adriana Ventura", "partido": "NOVO", "estado": "São Paulo"}
+, {"nome": "Alencar Santana", "partido": "PT", "estado": "São Paulo"}
+, {"nome": "Alex Manente", "partido": "PPS", "estado": "São Paulo"}
+, {"nome": "Alexandre Frota", "partido": "PSL", "estado": "São Paulo"}
+, {"nome": "Alexandre Leite", "partido": "DEM", "estado": "São Paulo"}
+, {"nome": "Alexandre Padilha", "partido": "PT", "estado": "São Paulo"}
+, {"nome": "Alexis", "partido": "NOVO", "estado": "São Paulo"}
+, {"nome": "Arlindo Chinaglia", "partido": "PT", "estado": "São Paulo"}
+, {"nome": "Arnaldo Jardim", "partido": "PPS", "estado": "São Paulo"}
+, {"nome": "Baleia Rossi", "partido": "MDB", "estado": "São Paulo"}
+, {"nome": "Bruna Furlan", "partido": "PSDB", "estado": "São Paulo"}
+, {"nome": "Capitão Augusto", "partido": "PR", "estado": "São Paulo"}
+, {"nome": "Carla Zambelli", "partido": "PSL", "estado": "São Paulo"}
+, {"nome": "Carlos Sampaio", "partido": "PSDB", "estado": "São Paulo"}
+, {"nome": "Carlos Zarattini", "partido": "PT", "estado": "São Paulo"}
+, {"nome": "Celso Russomano", "partido": "PRB", "estado": "São Paulo"}
+, {"nome": "Cezinha de Madureira", "partido": "PSD", "estado": "São Paulo"}
+, {"nome": "Coronel Tadeu", "partido": "PSL", "estado": "São Paulo"}
+, {"nome": "David Soares", "partido": "DEM", "estado": "São Paulo"}
+, {"nome": "Eduardo Bolsonaro", "partido": "PSL", "estado": "São Paulo"}
+, {"nome": "Eduardo Cury", "partido": "PSDB", "estado": "São Paulo"}
+, {"nome": "Eli Corrêa Filho", "partido": "DEM", "estado": "São Paulo"}
+, {"nome": "Enrico Misasi", "partido": "PV", "estado": "São Paulo"}
+, {"nome": "Fausto Pinato", "partido": "PP", "estado": "São Paulo"}
+, {"nome": "General Peternelli", "partido": "PSL", "estado": "São Paulo"}
+, {"nome": "Geninho Zuliani", "partido": "DEM", "estado": "São Paulo"}
+, {"nome": "Gilberto Nascimento", "partido": "PSC", "estado": "São Paulo"}
+, {"nome": "Guiga Peixoto", "partido": "PSL", "estado": "São Paulo"}
+, {"nome": "Guilherme Mussi", "partido": "PP", "estado": "São Paulo"}
+, {"nome": "Herculano Passos", "partido": "MDB", "estado": "São Paulo"}
+, {"nome": "Ivan Valente", "partido": "PSOL", "estado": "São Paulo"}
+, {"nome": "Jefferson Campos", "partido": "PSB", "estado": "São Paulo"}
+, {"nome": "Joice Hasselmann", "partido": "PSL", "estado": "São Paulo"}
+, {"nome": "Junior Bozzella", "partido": "PSL", "estado": "São Paulo"}
+, {"nome": "Kim Kataguiri", "partido": "DEM", "estado": "São Paulo"}
+, {"nome": "Luiz Carlos Motta", "partido": "PR", "estado": "São Paulo"}
+, {"nome": "Luiz Philippe O. Bragança", "partido": "PSL", "estado": "São Paulo"}
+, {"nome": "Luiza Erundina", "partido": "PSOL", "estado": "São Paulo"}
+, {"nome": "Marcio Alvino", "partido": "PR", "estado": "São Paulo"}
+, {"nome": "Marco Bertaiolli", "partido": "PSD", "estado": "São Paulo"}
+, {"nome": "Marcos Pereira", "partido": "PRB", "estado": "São Paulo"}
+, {"nome": "Maria Rosas", "partido": "PRB", "estado": "São Paulo"}
+, {"nome": "Miguel Lombardi", "partido": "PR", "estado": "São Paulo"}
+, {"nome": "Milton Vieira", "partido": "PRB", "estado": "São Paulo"}
+, {"nome": "Nilto Tatto", "partido": "PT", "estado": "São Paulo"}
+, {"nome": "Orlando Silva", "partido": "PC do B", "estado": "São Paulo"}
+, {"nome": "Pastor Marco Feliciano", "partido": "PODE", "estado": "São Paulo"}
+, {"nome": "Paulinho da Força", "partido": "SD", "estado": "São Paulo"}
+, {"nome": "Paulo Freire Costa", "partido": "PR", "estado": "São Paulo"}
+, {"nome": "Paulo Teixeira", "partido": "PT", "estado": "São Paulo"}
+, {"nome": "Policial Katia Sastre", "partido": "PR", "estado": "São Paulo"}
+, {"nome": "Professor Luiz Flavio Gomes", "partido": "PSB", "estado": "São Paulo"}
+, {"nome": "Renata Abreu", "partido": "PODE", "estado": "São Paulo"}
+, {"nome": "Ricardo Izar", "partido": "PP", "estado": "São Paulo"}
+, {"nome": "Roberto Alves", "partido": "PRB", "estado": "São Paulo"}
+, {"nome": "Roberto de Lucena", "partido": "PODE", "estado": "São Paulo"}
+, {"nome": "Rodrigo Agostinho", "partido": "PSB", "estado": "São Paulo"}
+, {"nome": "Rosana Valle", "partido": "PSB", "estado": "São Paulo"}
+, {"nome": "Rui Falcão", "partido": "PT", "estado": "São Paulo"}
+, {"nome": "Sâmia Bomfim", "partido": "PSOL", "estado": "São Paulo"}
+, {"nome": "Samuel Moreira", "partido": "PSDB", "estado": "São Paulo"}
+, {"nome": "Tabata Amaral", "partido": "PDT", "estado": "São Paulo"}
+, {"nome": "Tenente Derrite", "partido": "PP", "estado": "São Paulo"}
+, {"nome": "Tiririca", "partido": "PR", "estado": "São Paulo"}
+, {"nome": "Vanderlei Macris", "partido": "PSDB", "estado": "São Paulo"}
+, {"nome": "Vicentinho", "partido": "PT", "estado": "São Paulo"}
+, {"nome": "Vinicius Carvalho", "partido": "PRB", "estado": "São Paulo"}
+, {"nome": "Vinicius Poit", "partido": "NOVO", "estado": "São Paulo"}
+, {"nome": "Vitor Lippi", "partido": "PSDB", "estado": "São Paulo"}
+, {"nome": "Bosco Costa", "partido": "PR", "estado": "Sergipe"}
+, {"nome": "Fábio Henrique", "partido": "PDT", "estado": "Sergipe"}
+, {"nome": "Fábio Mitidieri", "partido": "PSD", "estado": "Sergipe"}
+, {"nome": "Fabio Reis", "partido": "MDB", "estado": "Sergipe"}
+, {"nome": "Gustinho Ribeiro", "partido": "SD", "estado": "Sergipe"}
+, {"nome": "Joao Daniel", "partido": "PT", "estado": "Sergipe"}
+, {"nome": "Laercio Oliveira", "partido": "PP", "estado": "Sergipe"}
+, {"nome": "Valdevan Noventa", "partido": "PSC", "estado": "Sergipe"}
+, {"nome": "Carlos Henrique Gaguim", "partido": "DEM", "estado": "Tocantins"}
+, {"nome": "Celio Moura", "partido": "PT", "estado": "Tocantins"}
+, {"nome": "Dulce Miranda", "partido": "MDB", "estado": "Tocantins"}
+, {"nome": "Eli Borges", "partido": "SD", "estado": "Tocantins"}
+, {"nome": "Osires Damaso", "partido": "PSC", "estado": "Tocantins"}
+, {"nome": "Professora Dorinha", "partido": "DEM", "estado": "Tocantins"}
+, {"nome": "Tiago Dimas", "partido": "SD", "estado": "Tocantins"}
+, {"nome": "Vicentinho Junior", "partido": "PR", "estado": "Tocantins"}
+]
