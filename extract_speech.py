@@ -1,5 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
+
 import time
 from tqdm import tqdm
 import json
@@ -12,28 +18,46 @@ with open('./data/deputados.txt', 'r') as f:
 	deputados = eval(f.read())
 
 
-for dep in deputados:
+for dep in tqdm(deputados):
 	
-	driver.get("https://www.camara.leg.br/deputados/quem-sao")
-	name_field = driver.find_element_by_xpath('//*[@id="main-content"]/section/div/div[1]/form/span/input')
-	name_field.send_keys(dep)
+	driver.get("https://www2.camara.leg.br/atividade-legislativa/discursos-e-notas-taquigraficas")
+	
+	user = driver.find_element_by_name("txOrador")
+	user.send_keys(dep)
 
-	time.sleep(1.5)
-	autocomplete_find = driver.find_element_by_xpath("//body/ul/li[1]")
-	autocomplete_find.click()
+	start_date = driver.find_element_by_name("dtInicio")
+	start_date.send_keys("01/01/2018")
+	submit_btn = driver.find_element_by_name("btnPesq")
+	submit_btn.click()
 
-	search_btn = driver.find_element_by_xpath('//*[@id="main-content"]/section/div/div[1]/form/div/button')
-	search_btn.click()
+	discursos_do_deputado = []
 
-
-	time.sleep(8)
-
-	print("deputado: ", dep)
 	try:
-		discursos_dados = driver.find_element_by_xpath('//*[@id="atuacao-section"]/div[1]/div[3]/div/div[2]/div/div/span[2]')
-														
-		print("Numero de discursos dados", discursos_dados.text)
+		WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/ul/li[2]/span')))
+	
+	except TimeoutException:
 
-	except: 
-		discursos_dados = driver.find_element_by_xpath('//*[@id="atuacao-section"]/div[1]/div[3]/div/div[2]/div/div/a')
-		print("Numero de discursos dados", discursos_dados.text)
+		not_found_speech = driver.find_element_by_xpath('//*[@id="content"]/div/p[1]/span')
+		assert(not_found_speech.text == "Nenhum discurso encontrado.")
+		print('Deputado sem discursos :', dep)
+		
+	try:
+		while(True):
+			expand_summary = driver.find_element_by_id("bnt-expand")
+			expand_summary.click()
+			a_tags = driver.find_elements_by_class_name('Sumario')
+
+			discursos_do_deputado += [a.text + "\n" for a in a_tags]
+			try: 
+				prox_pag = driver.find_element_by_xpath('//*[@title="Próxima Página"]')
+				prox_pag.click()
+				WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/ul/li[2]/span')))
+
+			except:
+				break
+
+	except:
+		print('Deputado sem discursos :', dep)
+	
+	with open(f"./data/discursos/{dep.replace(' ', '_')}.txt", 'w+') as f:
+		f.writelines(discursos_do_deputado)
