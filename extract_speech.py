@@ -26,7 +26,7 @@ for dep in tqdm(deputados):
 	user.send_keys(dep)
 
 	start_date = driver.find_element_by_name("dtInicio")
-	start_date.send_keys("01/01/2018")
+	start_date.send_keys("01/01/2019")
 	submit_btn = driver.find_element_by_name("btnPesq")
 	submit_btn.click()
 
@@ -46,8 +46,26 @@ for dep in tqdm(deputados):
 			expand_summary = driver.find_element_by_id("bnt-expand")
 			expand_summary.click()
 			a_tags = driver.find_elements_by_class_name('Sumario')
+			
+			#discursos_do_deputado += [a.text + "\n" for a in a_tags]
+			
+			discursos = [a.text for a in a_tags]
+			# Extracts the dates from the site
+			c = 1
+			dates = []
+			while(True):
+				try:
+					date = driver.find_element_by_xpath(f'//*[@id="content"]/div/table/tbody/tr[{c}]/td[1]')
+					dates.append(date.text)
+					c+=2
+				except:
+					break
 
-			discursos_do_deputado += [a.text + "\n" for a in a_tags]
+			assert(len(dates) == len(discursos))
+			for discurso, data in zip(discursos, dates):
+
+				discursos_do_deputado.append({'deputado':dep, 'discurso': discurso, 'data': data })
+			
 			try: 
 				prox_pag = driver.find_element_by_xpath('//*[@title="Próxima Página"]')
 				prox_pag.click()
@@ -60,4 +78,4 @@ for dep in tqdm(deputados):
 		print('Deputado sem discursos :', dep)
 	
 	with open(f"./data/discursos/{dep.replace(' ', '_')}.txt", 'w+') as f:
-		f.writelines(discursos_do_deputado)
+		f.write(str(discursos_do_deputado))

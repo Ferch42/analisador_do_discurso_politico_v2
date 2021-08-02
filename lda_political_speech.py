@@ -13,13 +13,19 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 
 stop_words = nltk.corpus.stopwords.words('portuguese') + \
 [punctuation for punctuation in string.punctuation] + \
-["nº", "sobre", "lei", "art", "projeto", "votação", "emenda", "proposta", "requerimento"] + \
-["comissão", "decreto", "nºs", "leis", "projetos", "emendas"] + \
+["nºs", "nº", "§", "º", "i", 'ii', 'iii', "-a"] + \
+["sobre", "lei", "art.", "projeto", "votação", "emenda", "proposta", "requerimento"] + \
+["comissão", "decreto", "leis", "projetos", "emendas"] + \
 ["votações", "comissões", "orientação", "bancada", "mista", "orador"] + \
 ["medida", "provisória", "medidas", "provisórias", "questão", "ordem"] + \
-["pauta", "pautas", "leitura", "discurso", "discussão", "§"] + \
+["pauta", "pautas", "leitura", "discurso", "discussão"] + \
 ["plenário", "pedido", "destaque", "separado", "artigo"]+ \
-["anúncio", "solicitações", "solicitação"]
+["anúncio", "solicitações", "solicitação", "arts.", "inciso", "incisos"] + \
+["caput", 'substitutivo', 'supressão', "assinaturas", "aprovação"] + \
+["emissão", "parecer", "apresentação", "acerca", "apresentada"] + \
+["apresentado", "submissão", 'transcurso', "congratulações"] + \
+["homenagem", "alínea", "posicionamento", "regulamentação", "importância"]+ \
+["necessidade", "declaração", "debate", "agradecimento", "oradora", "durante"]
 
 def tokenize(s):
 	
@@ -28,7 +34,7 @@ def tokenize(s):
 def main():
 
 
-	discursos_base_path = "./data/discursos/"
+	discursos_base_path = "./data/discursos_cleaned/"
 	discursos = os.listdir(discursos_base_path)
 
 	corpus = []
@@ -42,12 +48,13 @@ def main():
 	print("Tokenizing ")
 	tokenized_corpus = [tokenize(c) for c in tqdm(corpus)]
 
+	print(tokenized_corpus)
 	dictionary = corpora.Dictionary(tokenized_corpus)
 
 	print('Transforming into bow')
 	bow_corpus = [dictionary.doc2bow(text) for text in tqdm(tokenized_corpus)]
 
-	NUM_TOPICS = 5
+	NUM_TOPICS = 100
 	try:
 		os.mkdir(f"./models/{NUM_TOPICS}/")
 	except:
@@ -56,7 +63,7 @@ def main():
 	dictionary.save(f"./models/{NUM_TOPICS}/dictionary.gensim")
 
 	
-	ldamodel = gensim.models.ldamodel.LdaModel(bow_corpus, num_topics = NUM_TOPICS, id2word=dictionary, passes = 15)
+	ldamodel = gensim.models.ldamodel.LdaModel(bow_corpus, num_topics = NUM_TOPICS, id2word=dictionary, passes=20,alpha = 'asymmetric')
 	ldamodel.save(f"./models/{NUM_TOPICS}/model.gensim")
 
 	topics = ldamodel.print_topics(num_words=10)
