@@ -9,6 +9,8 @@ r"Apelo.*?(por|pelo|pela|a respeito|sobre|acerca|de)", r"art\. \d+º?\.?\d*", \
 r"\d+\.?\d*(º|ª)?", r"arts\.", r"§", r"R$", r"%", r"(Apresentação|Aprovação).*?(de|da|do) ",\
 r"votação em separado", r"Projeto de Lei", r"Medida Provisória"]
 
+from google.cloud import firestore
+db = firestore.Client()
 # Transcurso
 
 discurso_base_path = "./data/discursos/"

@@ -1,0 +1,1 @@
+[{'deputado': 'Vaidon Oliveira', 'discurso': 'Falecimento do Vereador Luciram Girão, do Município de Fortaleza, Estado do Ceará.', 'data': datetime.datetime(2019, 5, 7, 0, 0)}]

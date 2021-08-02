@@ -1,0 +1,1 @@
+[{'deputado': 'Dr. Agripino Magalhães', 'discurso': 'Saudações ao Presidente Rodrigo Maia e aos Parlamentares. Agradecimento ao Deputado Capitão Wagner, correligionários familiares e amigos pela assunção do mandato parlamentar. Compromisso de luta contra a oligarquia implantada no Estado do Ceará.', 'data': datetime.datetime(2020, 8, 4, 0, 0)}]

@@ -1,0 +1,1 @@
+[{'deputado': 'Onyx Lorenzoni', 'discurso': 'Agradecimento ao Presidente Rodrigo Maia, aos Líderes partidários e aos Deputados pela aprovação, em segundo turno, da proposta governamental de reforma previdenciária.', 'data': datetime.datetime(2019, 8, 6, 0, 0)}]

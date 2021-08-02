@@ -1,0 +1,1 @@
+[{'deputado': 'Severino Pessoa', 'discurso': 'Transcurso do 95º aniversário de emancipação político-administrativa do Município de Arapiraca, no Estado de Alagoas.', 'data': datetime.datetime(2019, 10, 30, 0, 0)}]

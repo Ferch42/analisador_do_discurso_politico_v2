@@ -1,0 +1,1 @@
+[{'deputado': 'Hermes Parcianello', 'discurso': 'Falecimento do líder político Hostílio Lustosa, do Município de Cascavel, Estado do Paraná.', 'data': datetime.datetime(2019, 5, 22, 0, 0)}]

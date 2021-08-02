@@ -1,0 +1,1 @@
+[{'deputado': 'Nivaldo Albuquerque', 'discurso': 'Orientação de bancada na votação do parecer de admissibilidade, oferecido pelo Relator da Comissão de Constituição e Justiça e de Cidadania à Proposta de Emenda à Constituição nº 186, de 2019, a chamada PEC Emergencial, a respeito da criação de mecanismos de ajuste fiscal.', 'data': datetime.datetime(2021, 3, 9, 0, 0)}]

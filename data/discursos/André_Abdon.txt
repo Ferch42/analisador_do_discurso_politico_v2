@@ -1,0 +1,1 @@
+[{'deputado': 'André Abdon', 'discurso': 'Transcurso do Dia do Professor. Congratulações aos professores do Estado do Amapá.', 'data': datetime.datetime(2019, 10, 15, 0, 0)}]

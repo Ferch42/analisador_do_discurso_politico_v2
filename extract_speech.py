@@ -6,13 +6,17 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 
+from google.cloud import firestore
 import time
 from tqdm import tqdm
 import json
+from datetime import datetime
 
 # Start webdriver
 options = Options()
 driver = webdriver.Chrome("./chromedriver/windows/chromedriver.exe", options=options)
+db = firestore.Client()
+driver.implicitly_wait(1) 
 
 with open('./data/deputados.txt', 'r') as f:
 	deputados = eval(f.read())
@@ -33,7 +37,7 @@ for dep in tqdm(deputados):
 	discursos_do_deputado = []
 
 	try:
-		WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/ul/li[2]/span')))
+		WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/ul/li[2]/span')))
 	
 	except TimeoutException:
 
@@ -64,12 +68,13 @@ for dep in tqdm(deputados):
 			assert(len(dates) == len(discursos))
 			for discurso, data in zip(discursos, dates):
 
-				discursos_do_deputado.append({'deputado':dep, 'discurso': discurso, 'data': data })
-			
+				discurso_dict = {'deputado':dep, 'discurso': discurso, 'data': datetime.strptime(data,"%d/%m/%Y") }
+				discursos_do_deputado.append(discurso_dict)
+				db.collection('speeches').add(discurso_dict)
 			try: 
 				prox_pag = driver.find_element_by_xpath('//*[@title="Próxima Página"]')
 				prox_pag.click()
-				WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/ul/li[2]/span')))
+				WebDriverWait(driver,60).until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/ul/li[2]/span')))
 
 			except:
 				break

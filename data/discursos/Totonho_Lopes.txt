@@ -1,0 +1,1 @@
+[{'deputado': 'Totonho Lopes', 'discurso': 'Agradecimentos pelo apoio concedido ao orador para assunção do mandato parlamentar.', 'data': datetime.datetime(2021, 5, 5, 0, 0)}]

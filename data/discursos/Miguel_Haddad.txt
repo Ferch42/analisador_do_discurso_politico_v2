@@ -1,0 +1,1 @@
+[{'deputado': 'Miguel Haddad', 'discurso': 'Contrariedade à elevação das dotações orçamentárias do Fundo Especial de Financiamento de Campanha, Fundo Eleitoral.', 'data': datetime.datetime(2019, 12, 11, 0, 0)}]

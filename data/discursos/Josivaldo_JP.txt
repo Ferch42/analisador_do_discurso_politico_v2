@@ -1,0 +1,1 @@
+[{'deputado': 'Josivaldo JP', 'discurso': 'Aplausos ao Prefeito Eduardo Braide pela vacinação em massa dos habitantes de São Luís, Estado do Maranhão.', 'data': datetime.datetime(2021, 6, 16, 0, 0)}]

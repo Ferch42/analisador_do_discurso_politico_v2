@@ -1,0 +1,1 @@
+[{'deputado': 'Juninho do Pneu', 'discurso': 'Resultados positivos da implantação do Programa Segurança Presente no Município de Nova Iguaçu, Estado do Rio de Janeiro. Atuação parlamentar do orador em prol dos moradores de Nova Iguaçu e da Baixada Fluminense.', 'data': datetime.datetime(2019, 8, 29, 0, 0)}]

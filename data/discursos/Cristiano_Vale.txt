@@ -1,0 +1,1 @@
+[{'deputado': 'Cristiano Vale', 'discurso': 'Discurso do orador por ocasião da realização da 51ª Exposição e Feira Agropecuária de Castanhal - EXPOFAC 2019, Estado do Pará.', 'data': datetime.datetime(2019, 9, 4, 0, 0)}]

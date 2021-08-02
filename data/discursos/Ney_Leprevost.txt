@@ -1,0 +1,1 @@
+[{'deputado': 'Ney Leprevost', 'discurso': 'Compromisso de atuação parlamentar em defesa do povo paranaense e da área de saúde pública. Expectativa quanto ao estabelecimento, com os Parlamentares, de diálogo democrático, transparente e calcado nos princípios constitucionais.', 'data': datetime.datetime(2020, 8, 4, 0, 0)}]
