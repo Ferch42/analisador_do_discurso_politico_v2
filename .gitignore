@@ -130,3 +130,7 @@ dmypy.json
 
 # credentials
 firestore-credentials.json
+
+# data
+local_firestore.pkl
+tokenized_corpus.pkl

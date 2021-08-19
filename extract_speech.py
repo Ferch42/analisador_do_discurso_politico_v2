@@ -22,6 +22,7 @@ with open('./data/deputados.txt', 'r') as f:
 	deputados = eval(f.read())
 
 
+
 for dep in tqdm(deputados):
 	
 	driver.get("https://www2.camara.leg.br/atividade-legislativa/discursos-e-notas-taquigraficas")

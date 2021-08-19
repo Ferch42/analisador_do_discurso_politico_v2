@@ -4,27 +4,27 @@ from tqdm import tqdm
 
 
 regex_list = [r"(Orientação|Encaminhamento|Discussão|Emissão|Pedido|Agradecimento|Questão de ordem|Esclarecimento|Declaração|Defesa|Elogio|Apoio|Protesto).*?(sobre|acerca|respeito|para|referente)",\
-r"(nº|n°)(s)? \d+\.?\d*",r"alteração da(s)? Lei(s)?", r"de \d+", r"(relativa|relativo) (à|ao)", \
+r"(nº|n°)(s)? \d+\.?\d*",r"alteração da(s)? Lei(s)?", r"de \d+", r"(relativa|relativo) (à|ao|aos)", \
 r"Apelo.*?(por|pelo|pela|a respeito|sobre|acerca|de)", r"art\. \d+º?\.?\d*", \
 r"\d+\.?\d*(º|ª)?", r"arts\.", r"§", r"R$", r"%", r"(Apresentação|Aprovação).*?(de|da|do) ",\
-r"votação em separado", r"Projeto de Lei", r"Medida Provisória"]
+r"votação em separado", r"Projeto de Lei", r"Medida Provisória", r"supressão", r"acerca", r"Decreto-Lei",\
+r"revogação", r"Lei", r"dispositivo", r"destaques", r'destaque', r"ressalvado(s)?", r"ressalvada(s)?",\
+r"inciso(s)?", r"redação", r'dada']
 
 from google.cloud import firestore
 db = firestore.Client()
 # Transcurso
 
-discurso_base_path = "./data/discursos/"
+print("GETTING THE DATA")
+data = db.collection('speeches').get()
+print("DONE")
+for speech in tqdm(data):
 
-for file in tqdm(os.listdir(discurso_base_path)):
+	speech_text = speech.to_dict()['discurso']
 
-	with open(os.path.join(discurso_base_path, file), 'r') as f:
-
-		lines = f.readlines()
-
-	cleaned_lines = lines
+	clean_text = speech_text
 	for r in regex_list:
-		cleaned_lines = [re.sub(r, "", s) for s in cleaned_lines]
+		clean_text = re.sub(r, "", clean_text) 
 
-	with open(os.path.join("./data/discursos_cleaned/", file), 'w+') as g:
+	speech.reference.update({"discurso_filtrado": clean_text})
 
-		g.writelines(cleaned_lines)
