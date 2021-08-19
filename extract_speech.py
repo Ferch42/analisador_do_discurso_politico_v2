@@ -85,3 +85,5 @@ for dep in tqdm(deputados):
 	
 	with open(f"./data/discursos/{dep.replace(' ', '_')}.txt", 'w+') as f:
 		f.write(str(discursos_do_deputado))
+
+		
