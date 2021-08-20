@@ -38,7 +38,6 @@ def tokenize(s):
 	return [w for w in word_tokenize(s.lower()) if w not in stop_words]
 
 
-
 from google.cloud import firestore
 db_real = firestore.Client()
 
