@@ -7,6 +7,8 @@ import pickle
 import gensim
 import string
 
+from sklearn.manifold import TSNE
+
 import pyLDAvis
 import pyLDAvis.gensim_models as gensimvis
 
@@ -40,6 +42,13 @@ def tokenize(s):
 
 from google.cloud import firestore
 db_real = firestore.Client()
+
+def parse_topic_string(s):
+
+	wordss = s.replace(' ', '').replace('"',' ').split('+')
+	split_words = [x.split('*') for x in wordss]
+	return [{"word": x[1], "weight": x[0]} for x in split_words]
+
 
 def main():
 
@@ -81,6 +90,7 @@ def main():
 		ldamodel = gensim.models.ldamodel.LdaModel(bow_corpus, num_topics = NUM_TOPICS, id2word=dictionary, passes=10, alpha = 'auto', eta = 'auto')
 		ldamodel.save(f"./models/{NUM_TOPICS}/model.gensim")
 
+		embedded_topics = TSNE(n_components=2).fit_transform(ldamodel.get_topics())
 		
 		topics = ldamodel.print_topics(num_words=20)
 
@@ -90,7 +100,7 @@ def main():
 		db_real.collection('topics').add({
 				"data_inicio": start_datetime,
 				"data_fim": start_datetime +  relativedelta(months=+1),
-				"topics": [t[1] for t in topics]
+				"topics": [{'words' : parse_topic_string(t[1]) , 'tsne_coords' : embedded_topics[t[0]].tolist(), 'topic_id': t[0]} for t in topics]
 			})
 
 		for t in topics:
